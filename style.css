@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+h2 {
+    color: lime;
+}
+
+canvas {
+    background: #111;
+    border: 2px solid white;
+}
