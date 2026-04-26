@@ -7,10 +7,18 @@
 <body>
 
 <h2>Snake Game 🐍</h2>
+
 <canvas id="gameCanvas" width="400" height="400"></canvas>
 
+<audio id="eatSound" src="eat.mp3" preload="auto"></audio>
+<audio id="gameOverSound" src="gameover.mp3" preload="auto"></audio>
+
+<br><br>
+
 <button onclick="location.reload()">Restart 🔄</button>
+<button onclick="togglePause()">Pause / Resume ⏸️</button>
 
 <script src="script.js"></script>
+
 </body>
 </html>
